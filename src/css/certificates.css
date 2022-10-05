@@ -1,7 +1,7 @@
 * {
     margin: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
@@ -18,14 +18,14 @@ header {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     width: 100vw;
     height: 8vh;
     padding: 8px;
@@ -42,18 +42,18 @@ main {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     background: #b92b27;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-gradient(linear, left top, right top, from(#1565C0), to(#b92b27));
     background: -o-linear-gradient(left, #1565C0, #b92b27);
@@ -72,11 +72,11 @@ main {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     width: 100vw;
     height: 8vh;
     padding: 8px;
@@ -92,8 +92,8 @@ main {
     main {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
         height: 1000px;
         font-size: 20px;
         text-align: center;
@@ -101,22 +101,22 @@ main {
 
     }
 
-    #my-image {
-        width: 250px;
-        height: 250px;
+    .certificate {
+        width: 400px;
+        height: 285px;
     }
 }
 
 @media (min-width: 960px) and (max-width: 1280px) {
     main {
         font-size: 16px;
-        
     }
 
-    #my-image {
-        width: 200px;
-        height: 200px;
+    .certificate {
+        width: 350px;
+        height: 250px;
     }
+
 }
 
 @media (max-width: 960px) {
@@ -127,17 +127,15 @@ main {
     main {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         height: 1000px;
         font-size: 20px;
-        
-
     }
 
-    #my-image {
-        width: 250px;
-        height: 250px;
+    .certificate {
+        width: 300px;
+        height: 214px;
     }
 }
 
@@ -149,18 +147,17 @@ main {
     main {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
         height: 1000px;
         font-size: 22px;
-        
-
     }
 
-    #my-image {
+    .certificate {
         width: 250px;
-        height: 250px;
+        height: 178px;
     }
+
 }
 
 @media (min-width: 560px) and (max-width: 700px) {
@@ -169,13 +166,11 @@ main {
     }
     main {
         font-size: 18px;
-        
-
     }
 
-    #my-image {
-        width: 250px;
-        height: 250px;
+    .certificate {
+        width: 200px;
+        height: 142px;
     }
 
     .foot {
@@ -197,9 +192,9 @@ main {
         
     }
 
-    #my-image {
-        width: 220px;
-        height: 220px;
+    .certificate {
+        width: 200px;
+        height: 142px;
     }
 
     .foot {
@@ -220,6 +215,11 @@ main {
         font-size: 15px;
         
 
+    }
+
+    .certificate {
+        width: 200px;
+        height: 142px;
     }
     
     a {
