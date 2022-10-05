@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 8vh;
+    padding: 8px;
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 24px;
+    text-align: center;
+}
+
+a {
+    font-size: 28px;
+}
+
+#my-image {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 8vh;
+    padding: 8px;
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: white;
+}
+
+@media (min-width: 1280px) {
+    main {
+        flex-direction: row;
+        height: 1000px;
+        font-size: 20px;
+        text-align: center;
+        height: 100vh;
+
+    }
+
+    #my-image {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1280px) {
+    main {
+        font-size: 16px;
+        height: 100vh;
+    }
+
+    #my-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 960px) {
+    header {
+        height: 8vh;
+    }
+
+    main {
+        flex-direction: column;
+        height: 1000px;
+        font-size: 20px;
+        height: 100vh;
+
+    }
+
+    #my-image {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 810px) {
+    header {
+        height: 8vh;
+    }
+
+    main {
+        flex-direction: column;
+        height: 1000px;
+        font-size: 22px;
+        height: 100vh;
+
+    }
+
+    #my-image {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 560px) and (max-width: 700px) {
+    header {
+        font-size: 18px;
+    }
+    main {
+        font-size: 18px;
+        height: 100vh;
+
+    }
+
+    #my-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .foot {
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 560px) {
+    header {
+        font-size: 14px;
+    }
+
+    main {
+        font-size: 16px;
+        height: 100vh;
+    }
+
+    #my-image {
+        width: 220px;
+        height: 220px;
+    }
+
+    .foot {
+        font-size: 14px;   
+    }
+
+    a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 380px) {
+    header {
+        font-size: 12px;
+    }
+
+    main {
+        font-size: 15px;
+        height: 100vh;
+
+    }
+    
+    a {
+        font-size: 18px;
+    }
+
+}
